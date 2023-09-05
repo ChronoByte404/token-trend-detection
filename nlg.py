@@ -1,7 +1,7 @@
-seed_word = "technology"
-context_words = ["emerging", "innovative"]
+import json
 
-# Use a template-based approach
-sentence_template = f"The field of {seed_word} is constantly evolving with {context_words[0]} and {context_words[1]} advancements."
+from utils import *
 
-print(sentence_template)
+inputs = input("You: ")
+
+predict_sentence(inputs)

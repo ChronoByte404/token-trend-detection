@@ -34,15 +34,4 @@ with open("trends.json", "w") as file:
 # Assuming you have a trends_dictionary with context_words
 seed_word = input("You: ")
 
-# Choose a seed word that exists in your trends_dictionary
-if seed_word in trends_dictionary:
-    context_words = trends_dictionary[seed_word]
-
-    # Use a template-based approach
-    if context_words:
-        sentence_template = f"The word '{seed_word}' is often associated with '{', '.join(context_words)}' in recent trends."
-        print(sentence_template)
-    else:
-        print(f"No context words found for '{seed_word}'.")
-else:
-    print(f"'{seed_word}' not found in trends_dictionary.")
+predict_sentence(seed_word)
