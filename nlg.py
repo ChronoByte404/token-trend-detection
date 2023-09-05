@@ -4,4 +4,6 @@ from utils import *
 
 inputs = input("You: ")
 
-predict_sentence(inputs)
+new_sentence = predict_sentence(inputs, 30)
+
+print(new_sentence)

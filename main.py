@@ -34,4 +34,4 @@ with open("trends.json", "w") as file:
 # Assuming you have a trends_dictionary with context_words
 seed_word = input("You: ")
 
-predict_sentence(seed_word)
+predict_sentence(seed_word, 20)

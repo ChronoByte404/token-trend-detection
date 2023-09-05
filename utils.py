@@ -6,7 +6,7 @@ def open_file(file_path):
         file_data = f.read()
     return file_data
 
-def predict_sentence(inputs):
+def predict_sentence(inputs, max_tokens):
     with open("trends.json", "r") as f:
         trends_dictionary = json.load(f)
 
@@ -24,3 +24,16 @@ def predict_sentence(inputs):
                 print(f"No context words found for '{seed_word}'.")
         else:
             print(f"'{seed_word}' not found in trends_dictionary.")
+
+    for i in range(max_tokens):
+        last_element = tokens[-1]
+        if last_element in trends_dictionary:
+            context_words = trends_dictionary[last_element]
+            if context_words:
+                tokens.append(context_words[-1])
+            else:
+                break
+        else:
+            break
+
+    return tokens
