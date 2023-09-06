@@ -1,6 +1,10 @@
 from Janex import *
 from utils import *
 import json
+import spacy
+import numpy as np
+
+nlp = spacy.load("en_core_web_sm")
 
 file_path = input("Your file path: ")
 data = open_file(file_path)
@@ -22,14 +26,32 @@ for i, token in enumerate(tokens):
         if next_token:
             context_words.append(next_token)
 
-        # Append the context words list to the dictionary
-        trends_dictionary[token] = context_words
+        # Compute the vector arrays for context words using spaCy
+        context_vectors = []
+        for word in context_words:
+            word_doc = nlp(word)
+            context_vectors.append(word_doc.vector.tolist())
 
-print(trends_dictionary)
+        # Append the context words and their vectors to the dictionary
+        trends_dictionary[token] = {
+            "context_words": context_words,
+            "context_vectors": context_vectors
+        }
+    else:
+        # If the token already exists, add the previous and next words
+        if prev_token:
+            trends_dictionary[token]["context_words"].append(prev_token)
+        if next_token:
+            trends_dictionary[token]["context_words"].append(next_token)
+
+# Save the trends_dictionary to a JSON file with the desired structure
+output_dictionary = {}
+for token, context_info in trends_dictionary.items():
+    output_dictionary[token] = context_info
 
 with open("trends.json", "w") as file:
     # Dump the dictionary into the JSON file with line breaks
-    json.dump(trends_dictionary, file, indent=4)
+    json.dump(output_dictionary, file, indent=4)
 
 # Assuming you have a trends_dictionary with context_words
 seed_word = input("You: ")
