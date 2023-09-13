@@ -1,0 +1,95 @@
+Open Google 
+Go to Google 
+Launch Google 
+Open Amazon 
+Go to Amazon 
+Launch Amazon 
+Open YouTube 
+Go to YouTube 
+Launch YouTube 
+Open OpenAI 
+Go to OpenAI 
+Launch OpenAI 
+Open Amazon Music 
+Go to Amazon Music 
+Launch Amazon Music 
+Open Twitter 
+Go to Twitter 
+Launch Twitter 
+Pause music 
+Stop music 
+Pausing music 
+Stopping the music 
+pause music 
+cutting music 
+kill music 
+play music 
+resume music 
+music resumed 
+music playing 
+playing music 
+resuming music 
+playing the next song 
+play next song 
+skip song 
+skipping song 
+reverse the song 
+previous song 
+replay song 
+Max out the volume 
+Maximum volume 
+Increase volume to MAXIMUM 
+mute 
+silence 
+mute the volume 
+Hi 
+Hello 
+Hey 
+Greetings 
+How are you? 
+How's it going? 
+What's up? 
+Thank you 
+Thanks 
+Appreciate it 
+Goodbye 
+See you later 
+Bye 
+Farewell 
+What's the weather like today? 
+Tell me the weather forecast 
+Is it going to rain? 
+Any plans for the weekend? 
+What are you doing this weekend? 
+Got any fun weekend activities? 
+Can you recommend a good movie? 
+What's a popular movie to watch? 
+Any movie suggestions? 
+Switch response type 
+change response type to fixed 
+change response type to random 
+enable random pattern generation 
+disable random pattern generation 
+Modify the way you respond 
+Change your response style 
+Sleep monitors 
+Shut down the monitors 
+Shut displays 
+Close displays 
+Help with technology 
+Technical support 
+Assist me with my device 
+I need tech help 
+Can you fix technical issues? 
+Yes 
+Yep 
+Yeah 
+Sure 
+Absolutely 
+Of course 
+Affirmative 
+No 
+Nope 
+Nah 
+Not really 
+Negative

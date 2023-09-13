@@ -4,13 +4,15 @@ import json
 import spacy
 import numpy as np
 
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_md")
 
 file_path = input("Your file path: ")
 data = open_file(file_path)
 
 tokens = tokenize(data)
-trends_dictionary = {}
+
+with open("trends.json", "r") as f:
+    trends_dictionary = json.load(f)
 
 # Iterate through tokens with an index
 for i, token in enumerate(tokens):
@@ -37,6 +39,7 @@ for i, token in enumerate(tokens):
             "context_words": context_words,
             "context_vectors": context_vectors
         }
+        print(trends_dictionary[token])
     else:
         # If the token already exists, add the previous and next words
         if prev_token:
@@ -53,7 +56,8 @@ with open("trends.json", "w") as file:
     # Dump the dictionary into the JSON file with line breaks
     json.dump(output_dictionary, file, indent=4)
 
-# Assuming you have a trends_dictionary with context_words
-seed_word = input("You: ")
+if __name__ == "__main__":
+    # Assuming you have a trends_dictionary with context_words
+    seed_word = input("You: ")
 
-predict_sentence(seed_word, 20)
+    predict_sentence(seed_word, 20)

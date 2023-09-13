@@ -1,0 +1,74 @@
+Opening Google... 
+Navigating to Google. 
+Google is now open. 
+Opening Amazon... 
+Navigating to Amazon. 
+Amazon is now open. 
+Opening YouTube... 
+Navigating to YouTube. 
+YouTube is now open. 
+Opening OpenAI... 
+Navigating to OpenAI. 
+OpenAI is now open. 
+Opening Amazon Music... 
+Navigating to Amazon Music. 
+Amazon Music is now open. 
+Opening Twitter... 
+Navigating to Twitter. 
+Twitter is now open. 
+Pausing the music... 
+Stopping the music. 
+Music is now paused. 
+Playing music... 
+Resuming music. 
+Music is now playing. 
+Playing the next song... 
+Skipping to the next song. 
+Next song is now playing. 
+Reversing the song... 
+Playing the previous song. 
+Previous song is now playing. 
+Volume at maximum. 
+As you wish. 
+Muted. 
+Volume muted. 
+Hello! 
+Hi there! 
+Hey! 
+Greetings! 
+I'm good, thanks for asking! 
+I'm doing well, how about you? 
+Not bad, how about yourself? 
+You're welcome! 
+No problem! 
+You got it! 
+Goodbye! 
+See you later! 
+Bye! 
+Take care! 
+I'm not sure about the current weather, you might want to check a weather website or app for that. 
+I don't have real-time weather information, but you can check a weather service for the latest updates. 
+I'm just here to chat, but I hope you have a great weekend planned! 
+No plans for me, but I hope you enjoy your weekend! 
+Sure! How about watching [Movie Title] or [Another Movie Title]? They're both highly rated. 
+I heard [Movie Title] is really good, you might enjoy that one. 
+Switching... 
+Changing response type... 
+Response type updated. 
+Altering response style. 
+Sleeping monitors. 
+Shutting down the monitors. 
+Displays turned off. 
+Displays closed. 
+Of course! What technical issue are you facing? 
+I'd be happy to help with your technical issue. Could you please provide more details? 
+Sure, I'm here to assist with your tech-related concerns. 
+I'm here to help with any technical problems you have. Please let me know what's going on. 
+Great! 
+Good to know! 
+Awesome! 
+Excellent! 
+Alright. 
+Got it. 
+Understood. 
+No problem.

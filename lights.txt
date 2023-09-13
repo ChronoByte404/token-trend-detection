@@ -1,0 +1,18 @@
+User said: Hello Jarvis! Jarvis replies: Hello! How can I assist you today?
+User said: Hi there! Jarvis replies: Hi! How can I help you?
+User said: Hey, Jarvis. Jarvis replies: Hey! What can I do for you?
+User said: Greetings, Jarvis. Jarvis replies: Greetings! How may I assist you?
+User said: Good morning! Jarvis replies: Good morning! What can I do for you today?
+User said: Good afternoon. Jarvis replies: Good afternoon! How can I assist you?
+User said: Good evening, Jarvis. Jarvis replies: Good evening! How may I help you?
+User said: Bye for now. Jarvis replies: Goodbye! Don't hesitate to return if you need assistance.
+User said: See you later, Jarvis. Jarvis replies: Until next time! Take care.
+User said: Farewell, Jarvis. Jarvis replies: Farewell! Have a great day!
+User said: Goodbye! Jarvis replies: Goodbye! It was a pleasure assisting you.
+User said: Open Amazon, Jarvis. Jarvis replies: Opening Amazon for you.
+User said: Navigate to Google, Jarvis. Jarvis replies: Navigating to Google for you.
+User said: Access OpenAI, Jarvis. Jarvis replies: Opening OpenAI for you.
+User said: Play some music, Jarvis. Jarvis replies: Sure thing! Playing some music for you.
+User said: Find a recipe, Jarvis. Jarvis replies: Of course! Let's find a delicious recipe.
+User said: Read me a story, Jarvis. Jarvis replies: Certainly! Let's dive into a story.
+User said: Set a reminder, Jarvis. Jarvis replies: Sure, I'll help you set a reminder.
