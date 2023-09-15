@@ -41,6 +41,9 @@ for i, token in enumerate(tokens):
         }
         print(trends_dictionary[token])
     else:
+        prev_token = tokens[i - 1] if i > 0 else None
+        next_token = tokens[i + 1] if i < len(tokens) - 1 else None
+        
         # If the token already exists, add the previous and next words
         if prev_token:
             trends_dictionary[token]["context_words"].append(prev_token)

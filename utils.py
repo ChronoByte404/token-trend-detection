@@ -73,6 +73,9 @@ def predict_sentence(inputs, max_tokens):
 
         if best_next_word and output[predicted_idx.item()] > 0.1:
             inputs += ' ' + best_next_word
+            inputs = inputs.replace("\n", " ")
+            inputs = inputs.replace("  ", " ")
+            print(inputs)
             context_vectors = np.roll(context_vectors, -1, axis=0)
             context_vectors = get_word_vector(best_next_word)
         else:
@@ -82,8 +85,6 @@ def predict_sentence(inputs, max_tokens):
 
 if __name__ == "__main__":
     sentence = input("You: ")
-    sentence = f"User said: '{sentence}' Jarvis replies:"
+#    sentence = f"User said: '{sentence}' Jarvis replies:"
     output = predict_sentence(sentence, 20)
-    output = output.replace("\n", " ")
-    output = output.replace("  ", " ")
     print("AI:", output)
